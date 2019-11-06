@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2490B309226BE4995054694D /* Pods_Mammon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6A7063720F556362D3E046 /* Pods_Mammon.framework */; };
+		9629180423482BC400AC1C54 /* Mammon_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9629180323482BC400AC1C54 /* Mammon_icon.png */; };
+		965CF2942360DBA9009E1563 /* classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965CF2922360DBA9009E1563 /* classes.swift */; };
+		965CF2952360DBA9009E1563 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965CF2932360DBA9009E1563 /* Extensions.swift */; };
+		967C7353235B70340087E2DD /* VarificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967C7352235B70340087E2DD /* VarificationViewController.swift */; };
+		967C7355235B8DB60087E2DD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967C7354235B8DB60087E2DD /* HomeViewController.swift */; };
+		96A3FDA8236E4F4700789034 /* AccountDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A3FDA7236E4F4700789034 /* AccountDetailViewController.swift */; };
+		96AD6A8A2354F49A0055E125 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AD6A892354F49A0055E125 /* Api.swift */; };
+		96FC1BEF2347AF0900B38033 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FC1BEE2347AF0900B38033 /* AppDelegate.swift */; };
+		96FC1BF12347AF0900B38033 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FC1BF02347AF0900B38033 /* SceneDelegate.swift */; };
+		96FC1BF32347AF0900B38033 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FC1BF22347AF0900B38033 /* ViewController.swift */; };
+		96FC1BF62347AF0900B38033 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96FC1BF42347AF0900B38033 /* Main.storyboard */; };
+		96FC1BF82347AF0C00B38033 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96FC1BF72347AF0C00B38033 /* Assets.xcassets */; };
+		96FC1BFB2347AF0C00B38033 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96FC1BF92347AF0C00B38033 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		571F046C16561B1F9E08A8ED /* Pods-Mammon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mammon.debug.xcconfig"; path = "Target Support Files/Pods-Mammon/Pods-Mammon.debug.xcconfig"; sourceTree = "<group>"; };
+		7345BFA6D3A9EE1BA13C85B7 /* Pods-Mammon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mammon.release.xcconfig"; path = "Target Support Files/Pods-Mammon/Pods-Mammon.release.xcconfig"; sourceTree = "<group>"; };
+		7E6A7063720F556362D3E046 /* Pods_Mammon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mammon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9629180323482BC400AC1C54 /* Mammon_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Mammon_icon.png; path = Assets.xcassets/icon/Mammon_icon.png; sourceTree = "<group>"; };
+		965CF2922360DBA9009E1563 /* classes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = classes.swift; sourceTree = "<group>"; };
+		965CF2932360DBA9009E1563 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		967C7352235B70340087E2DD /* VarificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VarificationViewController.swift; sourceTree = "<group>"; };
+		967C7354235B8DB60087E2DD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		96A3FDA7236E4F4700789034 /* AccountDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetailViewController.swift; sourceTree = "<group>"; };
+		96AD6A892354F49A0055E125 /* Api.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		96FC1BEB2347AF0900B38033 /* Mammon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mammon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96FC1BEE2347AF0900B38033 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96FC1BF02347AF0900B38033 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		96FC1BF22347AF0900B38033 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		96FC1BF52347AF0900B38033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96FC1BF72347AF0C00B38033 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96FC1BFA2347AF0C00B38033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96FC1BFC2347AF0C00B38033 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96FC1BE82347AF0900B38033 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2490B309226BE4995054694D /* Pods_Mammon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55A7B4912198E1774E449574 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				571F046C16561B1F9E08A8ED /* Pods-Mammon.debug.xcconfig */,
+				7345BFA6D3A9EE1BA13C85B7 /* Pods-Mammon.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		96FC1BE22347AF0900B38033 = {
+			isa = PBXGroup;
+			children = (
+				96FC1BED2347AF0900B38033 /* Mammon */,
+				96FC1BEC2347AF0900B38033 /* Products */,
+				55A7B4912198E1774E449574 /* Pods */,
+				DC5BE4AC07A9DC64FEE844C1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		96FC1BEC2347AF0900B38033 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96FC1BEB2347AF0900B38033 /* Mammon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96FC1BED2347AF0900B38033 /* Mammon */ = {
+			isa = PBXGroup;
+			children = (
+				965CF2922360DBA9009E1563 /* classes.swift */,
+				965CF2932360DBA9009E1563 /* Extensions.swift */,
+				96AD6A892354F49A0055E125 /* Api.swift */,
+				96FC1BEE2347AF0900B38033 /* AppDelegate.swift */,
+				96FC1BF02347AF0900B38033 /* SceneDelegate.swift */,
+				96FC1BF22347AF0900B38033 /* ViewController.swift */,
+				96A3FDA7236E4F4700789034 /* AccountDetailViewController.swift */,
+				96FC1BF42347AF0900B38033 /* Main.storyboard */,
+				967C7354235B8DB60087E2DD /* HomeViewController.swift */,
+				967C7352235B70340087E2DD /* VarificationViewController.swift */,
+				96FC1BF72347AF0C00B38033 /* Assets.xcassets */,
+				96FC1BF92347AF0C00B38033 /* LaunchScreen.storyboard */,
+				96FC1BFC2347AF0C00B38033 /* Info.plist */,
+				9629180323482BC400AC1C54 /* Mammon_icon.png */,
+			);
+			path = Mammon;
+			sourceTree = "<group>";
+		};
+		DC5BE4AC07A9DC64FEE844C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E6A7063720F556362D3E046 /* Pods_Mammon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96FC1BEA2347AF0900B38033 /* Mammon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96FC1BFF2347AF0C00B38033 /* Build configuration list for PBXNativeTarget "Mammon" */;
+			buildPhases = (
+				C3EEF44B7C54F8F48BE03FCA /* [CP] Check Pods Manifest.lock */,
+				96FC1BE72347AF0900B38033 /* Sources */,
+				96FC1BE82347AF0900B38033 /* Frameworks */,
+				96FC1BE92347AF0900B38033 /* Resources */,
+				8F02472AE17A2F981D604B44 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mammon;
+			productName = Mammon;
+			productReference = 96FC1BEB2347AF0900B38033 /* Mammon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96FC1BE32347AF0900B38033 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = EYC;
+				TargetAttributes = {
+					96FC1BEA2347AF0900B38033 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 96FC1BE62347AF0900B38033 /* Build configuration list for PBXProject "Mammon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96FC1BE22347AF0900B38033;
+			productRefGroup = 96FC1BEC2347AF0900B38033 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96FC1BEA2347AF0900B38033 /* Mammon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96FC1BE92347AF0900B38033 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96FC1BFB2347AF0C00B38033 /* LaunchScreen.storyboard in Resources */,
+				96FC1BF82347AF0C00B38033 /* Assets.xcassets in Resources */,
+				96FC1BF62347AF0900B38033 /* Main.storyboard in Resources */,
+				9629180423482BC400AC1C54 /* Mammon_icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8F02472AE17A2F981D604B44 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mammon/Pods-Mammon-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mammon/Pods-Mammon-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mammon/Pods-Mammon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3EEF44B7C54F8F48BE03FCA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mammon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96FC1BE72347AF0900B38033 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96A3FDA8236E4F4700789034 /* AccountDetailViewController.swift in Sources */,
+				965CF2942360DBA9009E1563 /* classes.swift in Sources */,
+				967C7353235B70340087E2DD /* VarificationViewController.swift in Sources */,
+				96FC1BF32347AF0900B38033 /* ViewController.swift in Sources */,
+				965CF2952360DBA9009E1563 /* Extensions.swift in Sources */,
+				96FC1BEF2347AF0900B38033 /* AppDelegate.swift in Sources */,
+				96AD6A8A2354F49A0055E125 /* Api.swift in Sources */,
+				96FC1BF12347AF0900B38033 /* SceneDelegate.swift in Sources */,
+				967C7355235B8DB60087E2DD /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		96FC1BF42347AF0900B38033 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96FC1BF52347AF0900B38033 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96FC1BF92347AF0C00B38033 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96FC1BFA2347AF0C00B38033 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96FC1BFD2347AF0C00B38033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96FC1BFE2347AF0C00B38033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96FC1C002347AF0C00B38033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 571F046C16561B1F9E08A8ED /* Pods-Mammon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BVT62X66MW;
+				INFOPLIST_FILE = Mammon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EYC.Mammon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		96FC1C012347AF0C00B38033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7345BFA6D3A9EE1BA13C85B7 /* Pods-Mammon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BVT62X66MW;
+				INFOPLIST_FILE = Mammon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EYC.Mammon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96FC1BE62347AF0900B38033 /* Build configuration list for PBXProject "Mammon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96FC1BFD2347AF0C00B38033 /* Debug */,
+				96FC1BFE2347AF0C00B38033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96FC1BFF2347AF0C00B38033 /* Build configuration list for PBXNativeTarget "Mammon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96FC1C002347AF0C00B38033 /* Debug */,
+				96FC1C012347AF0C00B38033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96FC1BE32347AF0900B38033 /* Project object */;
+}

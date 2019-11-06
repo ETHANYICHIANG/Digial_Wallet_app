@@ -31,7 +31,7 @@ struct Api {
         config.timeoutIntervalForResource = 60
         if let authToken = Storage.authToken {
             config.httpAdditionalHeaders = ["x-authtoken": authToken]
-            print("auth in config:\(authToken)")
+            //print("auth in config:\(authToken)")
         } else {
             config.httpAdditionalHeaders = [:]
         }
