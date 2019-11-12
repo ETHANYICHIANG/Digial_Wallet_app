@@ -1,8 +1,7 @@
-# Homework4-F19
+# Mammon - a digital wallet ios app
 
 ## Author
 Ethan Chiang 
-SID: 916154228
 
 ## Project Discription
 This is the final vresion of a digital wallet ios app. This version now includes:
