@@ -4,7 +4,7 @@
 Ethan Chiang 
 
 ## Project Discription
-This is the final vresion of a digital wallet ios app. This version now includes:
+This is the final vresion of a digital wallet ios app for ECS189e @ UC Davis. This version now includes:
 * Launch page
 * Sign-up page
 * OTP validation page
